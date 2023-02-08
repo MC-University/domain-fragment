@@ -1,2 +1,8 @@
 #%RAML 1.0 Library
-usage: Collection to centralize Data Types and Examples for MC University APIs
+usage: Collection to Centralize Data Types and Examples for MC University Records APIs
+
+types:
+  studentDataType: !include dataTypes/student.raml
+  studentListDataType: !include dataTypes/students.raml
+  bookDataType: !include dataTypes/book.raml
+  booksListDataType: !include dataTypes/books.raml
