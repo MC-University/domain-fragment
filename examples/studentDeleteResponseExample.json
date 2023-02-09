@@ -1,15 +1,3 @@
 {
-	"recordType":"STUDENTS",
-	"records":[
-		{
-			"studentId":"20230001",
-			"lastName":"Parkour",
-			"firstName":"Peter",
-			"subjects":[
-				"Physics",
-				"College Algebra",
-				"Political Science"
-			]
-		}
-	]
+	"Student record deleted successfully"
 }
