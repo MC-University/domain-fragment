@@ -17,5 +17,24 @@
         "time": ["9AM", "4PM"]
       }
     ]
+  },
+  {
+    "sportCode": "VLLY",
+    "sportName": "Volleyball",
+    "instructor": "James Naismith",
+    "schedule": [
+      {
+        "day": "TUE",
+        "time": ["9AM", "4PM"]
+      },
+      {
+        "day": "WED",
+        "time": ["1PM"]
+      },
+      {
+        "day": "FRI",
+        "time": ["9AM", "4PM"]
+      }
+    ]
   }
 ]
