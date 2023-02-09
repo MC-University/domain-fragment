@@ -3,18 +3,27 @@ usage: Student Properties
 type: object
 
 properties:
-  studentId:
-    description: Student Id
+  recordType:
+    description: Type of records being fetched
     type: string
-    minLength: 8
-  lastName:
-    description: Last name of the student
-    type: string
-  firstName:
-    description: First name of the student
-    type: string
-  subjects:
-    description: Course Title
+    example: STUDENTS
+  resultSet:
+    description: A member or collection of data being fetched
     type: array
     items:
-      type: string
+      properties:
+        studentId:
+          description: Student Id
+          type: string
+          minLength: 8
+        lastName:
+          description: Last name of the student
+          type: string
+        firstName:
+          description: First name of the student
+          type: string
+        subjects:
+          description: Course Title
+          type: array
+          items:
+            type: string
