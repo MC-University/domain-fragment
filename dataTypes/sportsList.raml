@@ -1,29 +1,31 @@
 #%RAML 1.0 DataType
-usage: Sport Properties
-type: object
+usage: Books List Properties
+type: array
 
-properties:
-  sportId:
-    description: Sport ID
-    type: string
-    minLength: 4
-  sportName:
-    description: Sport's name
-    type: string
-  schedule:
-    description: Sport's schedule
-    type: array
-    items:
-      type: object
-      properties:
-        day:
-          description: Day when sport is taught
-          type: enum
-        time:
-          description: Time when sport is taught
-          type: array
-          items:
-            type: string
-        instructor:
-          description: Instructor's name
-          type: string
+items:
+  type: object
+  properties:
+    sportCode:
+      description: Sport code
+      type: string
+      minLength: 4
+    sportName:
+      description: Sport's name
+      type: string
+    instructor:
+      description: Instructor's name
+      type: string
+    schedule:
+      description: Sport's schedule
+      type: array
+      items:
+        type: object
+        properties:
+          day:
+            description: Day when sport is taught
+            type: enum
+          time:
+            description: Time when sport is taught
+            type: array
+            items:
+              type: string
