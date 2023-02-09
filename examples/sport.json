@@ -1,7 +1,7 @@
 {
   "sportCode": "230001",
   "sportName": "Tale of Two Cities",
-  "author": "Charles Dickens",
+  "instructor": "Charles Dickens",
   "publisher": "Chapman & Hall"
 }
 
@@ -10,7 +10,7 @@ properties:
     description: Sport code
     type: string
     minLength: 4
-  title:
+  sportName:
     description: Sport's name
     type: string
   instructor:
