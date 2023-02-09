@@ -1,7 +1,7 @@
 #%RAML 1.0 DataType
 usage: Sport Properties
-type: object
 
+type: object
 properties:
   recordType:
     description: Type of records being fetched
@@ -11,6 +11,7 @@ properties:
     description: A member or collection of data being fetched
     type: array
     items:
+      type: object
       properties:
         sportId:
           description: Sport ID
