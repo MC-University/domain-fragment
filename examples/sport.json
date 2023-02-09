@@ -1,37 +1,11 @@
 {
-  "sportCode": "230001",
-  "sportName": "Tale of Two Cities",
-  "instructor": "Charles Dickens",
+  "sportCode": "BSKT",
+  "sportName": "Basketball",
+  "instructor": "James Naismith",
   "schedule": [
     {
       "day": "TUE",
-      "time": ["9AM", "1PM", ""]
+      "time": ["9AM", "4PM"]
     }
   ]
 }
-
-properties:
-  sportCode:
-    description: Sport code
-    type: string
-    minLength: 4
-  sportName:
-    description: Sport's name
-    type: string
-  instructor:
-    description: Instructor's name
-    type: string
-  schedule:
-    description: Sport's schedule
-    type: array
-    items:
-      type: object
-      properties:
-        day:
-          description: Day when sport is taught
-          type: enum
-        time:
-          description: Time when sport is taught
-          type: array
-          items:
-            type: string
