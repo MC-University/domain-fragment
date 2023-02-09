@@ -4,8 +4,8 @@
   "instructor": "Charles Dickens",
   "schedule": [
     {
-      "day": "",
-      "time"
+      "day": "TUE",
+      "time": ["9AM", "1PM", ""]
     }
   ]
 }
