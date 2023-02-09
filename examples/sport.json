@@ -2,7 +2,12 @@
   "sportCode": "230001",
   "sportName": "Tale of Two Cities",
   "instructor": "Charles Dickens",
-  "publisher": "Chapman & Hall"
+  "schedule": [
+    {
+      "day": "",
+      "time"
+    }
+  ]
 }
 
 properties:
