@@ -1,0 +1,11 @@
+{
+	"recordType":"BOOKS",
+	"records":[
+		{
+			"bookId":"230001",
+			"title":"Tale of Two Cities",
+			"author":"Charles Dickens",
+			"publisher":"Chapman & Hall"
+		}
+	]
+}
