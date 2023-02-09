@@ -4,22 +4,22 @@ type: object
 
 properties:
   sportName:
-        description: Sport's name
+    description: Sport's name
+    type: string
+  schedule:
+    description: Sport's schedule
+    type: array
+    items:
+      type: object
+      properties:
+        day:
+          description: Day when sport is taught
           type: string
-        schedule:
-          description: Sport's schedule
+        time:
+          description: Time when sport is taught
           type: array
           items:
-            type: object
-            properties:
-              day:
-                description: Day when sport is taught
-                type: string
-              time:
-                description: Time when sport is taught
-                type: array
-                items:
-                  type: string
-              instructor:
+            type: string
+        instructor:
                 description: Instructor's name
                 type: string
