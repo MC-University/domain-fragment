@@ -7,17 +7,20 @@ properties:
     description: Type of records being fetched
     type: string
   resultSet:
-    description: 
-  bookId:
-    description: Book's asset ID
-    type: string
-    minLength: 6
-  title:
-    description: Book's title
-    type: string
-  author:
-    description: Author's name
-    type: string
-  publisher:
-    description: Publisher's name
-    type: string
+    description: A member or collection of data being fetched
+    type: array
+    items:
+     properties: 
+      bookId:
+        description: Book's asset ID
+        type: string
+        minLength: 6
+      title:
+        description: Book's title
+        type: string
+      author:
+        description: Author's name
+        type: string
+      publisher:
+        description: Publisher's name
+        type: string
