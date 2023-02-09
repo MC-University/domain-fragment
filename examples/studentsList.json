@@ -1,20 +1,33 @@
-[
-  {
-    "studentId": "20230001",
-    "lastName": "Parkour",
-    "firstName": "Peter",
-    "subject": ["Physics", "College Algebra", "Political Science"]
-  },
-  {
-    "studentId": "20230002",
-    "lastName": "Spark",
-    "firstName": "Tony",
-    "subject": ["Robotics", "Ballistics"]
-  },
-  {
-    "studentId": "20230003",
-    "lastName": "Rogers",
-    "firstName": "Sleek",
-    "subject": ["Political Science", "Physiotherapy"]
-  }
-]
+{
+	"recordType":"STUDENTS",
+	"records":[
+		{
+			"studentId":"20230001",
+			"lastName":"Parkour",
+			"firstName":"Peter",
+			"subject":[
+				"Physics",
+				"College Algebra",
+				"Political Science"
+			]
+		},
+		{
+			"studentId":"20230002",
+			"lastName":"Spark",
+			"firstName":"Tony",
+			"subject":[
+				"Robotics",
+				"Ballistics"
+			]
+		},
+		{
+			"studentId":"20230003",
+			"lastName":"Rogers",
+			"firstName":"Sleek",
+			"subject":[
+				"Political Science",
+				"Physiotherapy"
+			]
+		}
+	]
+}

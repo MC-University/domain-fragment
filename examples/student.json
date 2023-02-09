@@ -1,6 +1,15 @@
 {
-  "studentId": "20230001",
-  "lastName": "Parkour",
-  "firstName": "Peter",
-  "subject": ["Physics", "College Algebra", "Political Science"]
+	"recordType":"STUDENTS",
+	"records":[
+		{
+			"studentId":"20230001",
+			"lastName":"Parkour",
+			"firstName":"Peter",
+			"subject":[
+				"Physics",
+				"College Algebra",
+				"Political Science"
+			]
+		}
+	]
 }

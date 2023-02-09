@@ -1,21 +1,34 @@
 {
-  "sportId": "1001",
-  "sportName": "Basketball",
-  "schedules": [
-    {
-      "day": "TUE",
-      "time": ["9AM", "4PM"],
-      "instructor": "JNAISMITH"
-    },
-    {
-      "day": "WED",
-      "time": ["1PM"],
-      "instructor": "JNAISMITH"
-    },
-    {
-      "day": "FRI",
-      "time": ["9AM", "4PM"],
-      "instructor": "JNAISMITH"
-    }
-  ]
+	"recordType":"SPORTS",
+	"records":[
+		{
+			"sportId":"1001",
+			"sportName":"Basketball",
+			"schedules":[
+				{
+					"day":"TUE",
+					"time":[
+						"9AM",
+						"4PM"
+					],
+					"instructor":"JNAISMITH"
+				},
+				{
+					"day":"WED",
+					"time":[
+						"1PM"
+					],
+					"instructor":"JNAISMITH"
+				},
+				{
+					"day":"FRI",
+					"time":[
+						"9AM",
+						"4PM"
+					],
+					"instructor":"JNAISMITH"
+				}
+			]
+		}
+	]
 }
