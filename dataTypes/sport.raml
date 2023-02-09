@@ -21,7 +21,10 @@ properties:
       properties:
         day:
           description: Day when sport is taught
-          type: string
+          type: enum
+    
         time:
           description: Time when sport is taught
-          type: 
+          type: array
+          items:
+            type: string
