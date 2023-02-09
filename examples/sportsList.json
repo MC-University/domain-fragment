@@ -47,12 +47,12 @@
         "time": ["1PM"]
       },
       {
-        "day": "WED",
-        "time": ["1PM"]
+        "day": "THU",
+        "time": ["9AM", "4PM"]
       },
       {
         "day": "FRI",
-        "time": ["9AM", "4PM"]
+        "time": ["1PM"]
       }
     ]
   }
