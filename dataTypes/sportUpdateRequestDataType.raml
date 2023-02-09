@@ -1,16 +1,25 @@
 #%RAML 1.0 DataType
-usage: Student Properties
+usage: Sport Properties
 type: object
 
 properties:
-  lastName:
-    description: Last name of the student
+  sportName:
+    description: Sport's name
     type: string
-  firstName:
-    description: First name of the student
-    type: string
-  subjects:
-    description: Course Title
+  schedule:
+    description: Sport's schedule
     type: array
     items:
-      type: string
+      type: object
+      properties:
+        day:
+          description: Day when sport is taught
+          type: string
+        time:
+          description: Time when sport is taught
+          type: array
+          items:
+            type: string
+        instructor:
+          description: Instructor's name
+          type: string
