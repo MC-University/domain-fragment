@@ -1,7 +1,7 @@
 {
   "sportId": "1001",
   "sportName": "Basketball",
-  "schedule": [
+  "schedules": [
     {
       "day": "TUE",
       "time": ["9AM", "4PM"]
