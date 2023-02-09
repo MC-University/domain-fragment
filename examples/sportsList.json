@@ -1,6 +1,6 @@
 [
   {
-    "sportCode": "BSKT",
+    "sportCode": "BSKT01",
     "sportName": "Basketball",
     "instructor": "James Naismith",
     "schedule": [
@@ -21,7 +21,7 @@
   {
     "sportCode": "VLLY",
     "sportName": "Volleyball",
-    "instructor": "James Naismith",
+    "instructor": "William Morgan",
     "schedule": [
       {
         "day": "TUE",
