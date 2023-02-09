@@ -21,18 +21,18 @@
   {
     "sportCode": "BSKT",
     "sportName": "Basketball",
-    "instructor": "Gre",
+    "instructor": "Gregg Popovich",
     "schedule": [
       {
-        "day": "TUE",
+        "day": "MON",
         "time": ["9AM", "4PM"]
       },
       {
-        "day": "WED",
+        "day": "TUE",
         "time": ["1PM"]
       },
       {
-        "day": "FRI",
+        "day": "WED",
         "time": ["9AM", "4PM"]
       }
     ]
@@ -43,8 +43,8 @@
     "instructor": "William Morgan",
     "schedule": [
       {
-        "day": "TUE",
-        "time": ["9AM", "4PM"]
+        "day": "MON",
+        "time": ["1PM"]
       },
       {
         "day": "WED",
