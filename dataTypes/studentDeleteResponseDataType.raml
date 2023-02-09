@@ -1,0 +1,29 @@
+#%RAML 1.0 DataType
+usage: Student Properties
+type: object
+
+properties:
+  recordType:
+    description: Type of records being fetched
+    type: string
+    example: STUDENTS
+  records:
+    description: A member or collection of data being fetched
+    type: array
+    items:
+      properties:
+        studentId:
+          description: Student Id
+          type: string
+          minLength: 8
+        lastName:
+          description: Last name of the student
+          type: string
+        firstName:
+          description: First name of the student
+          type: string
+        subjects:
+          description: Course Title
+          type: array
+          items:
+            type: string
