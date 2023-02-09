@@ -1,8 +1,27 @@
 [
   {
-    "sportCode": "BSKT01",
+    "sportCode": "BSKT",
     "sportName": "Basketball",
     "instructor": "James Naismith",
+    "schedule": [
+      {
+        "day": "TUE",
+        "time": ["9AM", "4PM"]
+      },
+      {
+        "day": "WED",
+        "time": ["1PM"]
+      },
+      {
+        "day": "FRI",
+        "time": ["9AM", "4PM"]
+      }
+    ]
+  },
+  {
+    "sportCode": "BSKT",
+    "sportName": "Basketball",
+    "instructor": "Gre",
     "schedule": [
       {
         "day": "TUE",
