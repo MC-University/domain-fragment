@@ -5,7 +5,7 @@
 			"studentId":"20230001",
 			"lastName":"Parkour",
 			"firstName":"Peter",
-			"subject":[
+			"subjects":[
 				"Physics",
 				"College Algebra",
 				"Political Science"
