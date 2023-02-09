@@ -5,12 +5,12 @@
     {
       "day": "TUE",
       "time": ["9AM", "4PM"],
-      "instructor": "James Naismith"
+      "instructor": "JNAISMITH"
     },
     {
       "day": "WED",
       "time": ["1PM"],
-      "instructor": "James Naismith"
+      "instructor": "JNAISMITH"
     },
     {
       "day": "FRI",
