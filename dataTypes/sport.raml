@@ -3,27 +3,36 @@ usage: Sport Properties
 type: object
 
 properties:
-  sportId:
-    description: Sport ID
+  recordType:
+    description: Type of records being fetched
     type: string
-    minLength: 4
-  sportName:
-    description: Sport's name
-    type: string
-  schedule:
-    description: Sport's schedule
+    example: SPORTS
+  resultSet:
+    description: A member or collection of data being fetched
     type: array
     items:
-      type: object
       properties:
-        day:
-          description: Day when sport is taught
-          type: enum
-        time:
-          description: Time when sport is taught
+        sportId:
+          description: Sport ID
+          type: string
+          minLength: 4
+        sportName:
+          description: Sport's name
+          type: string
+        schedule:
+          description: Sport's schedule
           type: array
           items:
-            type: string
-        instructor:
-          description: Instructor's name
-          type: string
+            type: object
+            properties:
+              day:
+                description: Day when sport is taught
+                type: enum
+              time:
+                description: Time when sport is taught
+                type: array
+                items:
+                  type: string
+              instructor:
+                description: Instructor's name
+                type: string
