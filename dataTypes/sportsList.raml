@@ -5,16 +5,27 @@ type: array
 items:
   type: object
   properties:
-    bookId:
-      description: Book's asset ID
+    sportCode:
+      description: Sport code
       type: string
       minLength: 6
     title:
-      description: Book's title
+      description: Sport's name
       type: string
-    author:
-      description: Author's name
+    instructor:
+      description: Instructor's name
       type: string
-    publisher:
-      description: Publisher's name
-      type: string
+    schedule:
+      description: Sport's schedule
+      type: array
+      items:
+        type: object
+        properties:
+          day:
+            description: Day when sport is taught
+            type: enum
+          time:
+            description: Time when sport is taught
+            type: array
+            items:
+              type: string
