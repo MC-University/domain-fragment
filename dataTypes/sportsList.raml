@@ -5,15 +5,12 @@ type: array
 items:
   type: object
   properties:
-    sportCode:
-      description: Sport code
+    sportId:
+      description: Sport ID
       type: string
       minLength: 4
     sportName:
       description: Sport's name
-      type: string
-    instructor:
-      description: Instructor's name
       type: string
     schedule:
       description: Sport's schedule
@@ -29,3 +26,6 @@ items:
             type: array
             items:
               type: string
+          instructor:
+            description: Instructor's name
+            type: string
