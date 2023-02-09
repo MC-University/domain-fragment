@@ -1,6 +1,32 @@
 {
-  "bookId": "230001",
-  "title": "Tale of Two Cities",
+  "sportCode": "230001",
+  "sportName": "Tale of Two Cities",
   "author": "Charles Dickens",
   "publisher": "Chapman & Hall"
 }
+
+properties:
+  sportCode:
+    description: Sport code
+    type: string
+    minLength: 4
+  title:
+    description: Sport's name
+    type: string
+  instructor:
+    description: Instructor's name
+    type: string
+  schedule:
+    description: Sport's schedule
+    type: array
+    items:
+      type: object
+      properties:
+        day:
+          description: Day when sport is taught
+          type: enum
+        time:
+          description: Time when sport is taught
+          type: array
+          items:
+            type: string
