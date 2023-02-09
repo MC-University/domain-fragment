@@ -1,3 +1,9 @@
 {
-	"message": "Student record created successfully"
+	"lastName":"Parkour",
+	"firstName":"Peter",
+	"subjects":[
+		"Physics",
+		"College Algebra",
+		"Political Science"
+	]
 }
