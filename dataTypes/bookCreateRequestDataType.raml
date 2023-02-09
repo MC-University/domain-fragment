@@ -2,15 +2,17 @@
 usage: Student Properties
 type: object
 
-properties:
-  lastName:
-    description: Last name of the student
+properties: 
+  bookId:
+    description: Book's asset ID
     type: string
-  firstName:
-    description: First name of the student
+    minLength: 6
+  title:
+    description: Book's title
     type: string
-  subjects:
-    description: Course Title
-    type: array
-    items:
-      type: string
+  author:
+    description: Author's name
+        type: string
+      publisher:
+        description: Publisher's name
+        type: string
